@@ -6,9 +6,15 @@ h1 {
     color: #ffffffee;
     text-align: center;
 }
+h2 {
+    color: #14d10efc;
+    text-align: center;
+    margin: auto;
+}
 h3 {
     color: #ffffffee;
     text-align: center;
+     margin: auto;
 }
 .about {
     color: #14d10efc;
@@ -24,9 +30,9 @@ h3 {
 .projects {
     color: #14d10efc;
     text-align: center;
+    margin: auto;
     font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 .contact {
     color: #14d10efc;
@@ -43,14 +49,16 @@ h3 {
     height: 200px;
     border-radius: 25%;
 } */
-#pictures {
+/* #pictures {
     width: 200px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 #pictures img {
-    width: 20px;
+    width: 500px;
     height: auto;
+    align-items: center;
+    margin: auto;
 }
