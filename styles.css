@@ -50,3 +50,10 @@ align-items: center;
     height: 200px;
     border-radius: 25%;
 }
+.pictures {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
